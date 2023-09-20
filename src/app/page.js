@@ -3,8 +3,7 @@ import './assets/sass/page.style.css'
 
 export default function Home() {
   return (
-        <body>
-
+        <main>
         <div className='err' id='err'>
           <h1>ERROR:</h1>
           <span id='err_reason'>
@@ -933,9 +932,8 @@ export default function Home() {
           </div>
           <a id='copy_md_part_text'>Copy</a>
         </div>
-        <script src='languages.databases.frameworks.js'></script>
-
-        </body>
+        <script src='languages.databases.frameworks.js'/>
+      </main>
 
   )
 }
