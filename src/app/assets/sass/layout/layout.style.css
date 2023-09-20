@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca");
+#instagram:hover {
+  color: rgb(223, 61, 244);
+}
+
+#discord:hover {
+  color: rgb(46, 46, 46);
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+}
+.container span {
+  justify-content: left;
+  display: flex;
+  position: absolute;
+  left: 5%;
+}
+.container span h1 {
+  font-family: "Lexend Deca";
+  font-size: 30px;
+  color: #4c8aff;
+}
+.container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 3em;
+  position: relative;
+  right: 5%;
+}
+.container ul li {
+  margin-top: 5px;
+  font-family: "Lexend Deca";
+  font-size: 25px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+}
+footer ul {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+footer i {
+  margin-right: 5px;
+}
+footer a {
+  padding: 10px;
+  border-radius: 50px;
+  font-family: "Lexend Deca";
+}
+footer a:hover {
+  box-shadow: 0px 0px 10px 1px #4c8aff;
+}/*# sourceMappingURL=layout.style.css.map */

@@ -1,7 +1,8 @@
 {
-  "name": "languageknowladge",
+  "name": "badgepicker",
   "version": "0.1.0",
   "private": true,
+  "main": "../node_modules/faker/index.js'",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "express": "^4.18.2",
+    "js-yaml": "^4.1.0",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0"

@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca");
+.err {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: rgb(255, 104, 104);
+  width: 300px;
+  height: 150px;
+  transform: translateY(-500%);
+  transition: 500ms;
+  display: flex;
+}
+.err h1 {
+  font-family: "Lexend Deca";
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  margin: 10px auto;
+}
+.err span {
+  position: absolute;
+  bottom: 55%;
+  font-family: "Lexend Deca";
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.badges .frameworks_platforms_libs {
+  width: 1000px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 100px;
+  box-shadow: 0px 0px 10px 1px #ddd;
+  justify-content: center;
+  margin: 50px auto 0px;
+}
+.badges .frameworks_platforms_libs h1 {
+  font-family: "Lexend Deca";
+  text-align: center;
+  margin-bottom: 50px;
+}
+.badges .frameworks_platforms_libs p {
+  font-family: "Lexend Deca";
+  text-align: center;
+}
+.badges .frameworks_platforms_libs ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.badges .frameworks_platforms_libs ul li {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.badges .frameworks_platforms_libs ul li a img {
+  transition: 300ms;
+}
+.badges .frameworks_platforms_libs ul li a:hover img {
+  transition: 500ms;
+  border-radius: 50px;
+}
+.badges .databases {
+  width: 1000px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 100px;
+  box-shadow: 0px 0px 10px 1px #ddd;
+  justify-content: center;
+  margin: 50px auto 0px;
+}
+.badges .databases h1 {
+  font-family: "Lexend Deca";
+  text-align: center;
+  margin-bottom: 50px;
+}
+.badges .databases p {
+  font-family: "Lexend Deca";
+  text-align: center;
+}
+.badges .databases ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.badges .databases ul li {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.badges .databases ul li a img {
+  transition: 300ms;
+}
+.badges .databases ul li a:hover img {
+  transition: 500ms;
+  border-radius: 50px;
+}
+.badges .languages {
+  width: 1000px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 100px;
+  box-shadow: 0px 0px 10px 1px #ddd;
+  justify-content: center;
+  margin: 50px auto 0px;
+}
+.badges .languages h1 {
+  font-family: "Lexend Deca";
+  text-align: center;
+  margin-bottom: 50px;
+}
+.badges .languages p {
+  font-family: "Lexend Deca";
+  text-align: center;
+}
+.badges .languages ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.badges .languages ul li {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.badges .languages ul li a img {
+  transition: 300ms;
+}
+.badges .languages ul li a:hover img {
+  transition: 500ms;
+  border-radius: 50px;
+}
+
+.picked {
+  position: relative;
+  bottom: 0;
+  background-color: #fff;
+  left: 0;
+  width: 1000px;
+  box-shadow: 0px 0px 10px 1px #ddd;
+  height: 500px;
+  right: 0;
+  margin: 125px auto;
+}
+.picked .generation {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+.picked .generation .generate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3em;
+}
+.picked .generation .generate a {
+  font-family: "Lexend Deca";
+  transition: 250ms;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #303030;
+  color: white;
+  border-radius: 5px;
+}
+.picked .generation .generate a:hover {
+  color: #1478eb;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px #303030;
+  transition: 250ms;
+}
+.picked h1 {
+  font-family: "Lexend Deca";
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+.picked ul {
+  width: 800px;
+  margin: auto;
+  height: 250px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+}
+.picked ul li {
+  margin: 5px 10px;
+}
+.picked ul li img {
+  border-radius: 5px;
+  transition: 300ms;
+  cursor: pointer;
+}
+.picked ul li img:hover {
+  border-radius: 50px;
+  transition: 500ms;
+}
+
+.markdown {
+  position: relative;
+  bottom: 0;
+  background-color: #fff;
+  left: 0;
+  width: 1000px;
+  box-shadow: 0px 0px 10px 1px #ddd;
+  box-shadow: 0px 0px 10px 1px #ddd;
+  height: 500px;
+  right: 0;
+  margin: 125px auto;
+}
+.markdown h1 {
+  font-family: "Lexend Deca";
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+.markdown .copy {
+  width: 800px;
+  margin: auto;
+  height: 350px;
+  background-color: #303030;
+  box-shadow: 0px 0px 10px 1px #303030;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+  bottom: 0;
+  position: absolute;
+}
+.markdown .copy textarea {
+  margin: auto;
+  height: 300px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  width: 700px;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: "Lexend Deca";
+}
+.markdown .copy textarea img {
+  border-radius: 5px;
+  transition: 300ms;
+  cursor: pointer;
+}
+.markdown a {
+  font-family: "Lexend Deca";
+  transition: 250ms;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #303030;
+  color: white;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+.markdown a:hover {
+  color: #1478eb;
+  transition: 250ms;
+}/*# sourceMappingURL=page.style.css.map */

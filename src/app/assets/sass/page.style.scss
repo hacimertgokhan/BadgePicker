@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca");
+
+.err {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: rgb(255, 104, 104);
+    width: 300px;
+    height: 150px;
+    transform: translateY(-500%);
+    transition: 500ms;
+    display: flex;
+    h1 {
+        font-family: "Lexend Deca";
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        margin: 10px auto;
+    }
+    span {
+        position: absolute;
+        bottom: 55%;
+        font-family: "Lexend Deca";
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+.badges {
+
+    .frameworks_platforms_libs {
+        width: 1000px;
+        height: fit-content;
+        padding: 50px 100px;
+        box-shadow: 0px 0px 10px 1px #ddd;
+        justify-content: center;
+        margin: 50px auto 0px;
+        h1 {
+            font-family: "Lexend Deca";
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        p {
+            font-family: "Lexend Deca";
+            text-align: center;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 2em;
+            li {
+                width: fit-content;
+                height: fit-content;
+                a {
+                    img {
+                        transition: 300ms;
+                    }
+                }
+                a:hover {
+                    img {
+                        transition: 500ms;
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    .databases {
+        width: 1000px;
+        height: fit-content;
+        padding: 50px 100px;
+        box-shadow: 0px 0px 10px 1px #ddd;
+        justify-content: center;
+        margin: 50px auto 0px;
+        h1 {
+            font-family: "Lexend Deca";
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        p {
+            font-family: "Lexend Deca";
+            text-align: center;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 2em;
+            li {
+                width: fit-content;
+                height: fit-content;
+                a {
+                    img {
+                        transition: 300ms;
+                    }
+                }
+                a:hover {
+                    img {
+                        transition: 500ms;
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    .languages {
+        width: 1000px;
+        height: fit-content;
+        padding: 50px 100px;
+        box-shadow: 0px 0px 10px 1px #ddd;
+        justify-content: center;
+        margin: 50px auto 0px;
+        h1 {
+            font-family: "Lexend Deca";
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        p {
+            font-family: "Lexend Deca";
+            text-align: center;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 2em;
+            li {
+                width: fit-content;
+                height: fit-content;
+                a {
+                    img {
+                        transition: 300ms;
+                    }
+                }
+                a:hover {
+                    img {
+                        transition: 500ms;
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.picked {
+    position: relative;
+    bottom: 0;
+    background-color: #fff;
+    left: 0;
+    width: 1000px;
+    box-shadow: 0px 0px 10px 1px #ddd;
+    height: 500px;
+    right: 0;
+    margin: 125px auto;
+    .generation {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        .generate {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 3em;
+            a {
+                font-family: "Lexend Deca";
+                transition: 250ms;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+                outline: none;
+                background-color: #303030;
+                color: white;
+                border-radius: 5px;
+            }
+            a:hover {
+                color: #1478eb;
+                background-color: #fff;
+                box-shadow: 0px 0px 10px 1px #303030;
+                transition: 250ms;
+            }
+        }
+    }
+    h1 {
+        font-family: "Lexend Deca";
+        text-align: center;
+        position: relative;
+        top: 10%;
+    }
+    ul {
+        width: 800px;
+        //for-test background-color: #303030;
+        margin: auto;
+        height: 250px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        li {
+            margin: 5px 10px;
+            img {
+                border-radius: 5px;
+                transition: 300ms;
+                cursor: pointer;
+            }
+            img:hover {
+                border-radius: 50px;
+                transition: 500ms;
+            }
+        }
+    }
+}
+
+.markdown {
+    position: relative;
+    bottom: 0;
+    background-color: #fff;
+    left: 0;
+    width: 1000px;
+    box-shadow: 0px 0px 10px 1px #ddd;
+    box-shadow: 0px 0px 10px 1px #ddd;
+    height: 500px;
+    right: 0;
+    margin: 125px auto;
+    h1 {
+        font-family: "Lexend Deca";
+        text-align: center;
+        position: relative;
+        padding: 20px;
+    }
+    .copy {
+        width: 800px;
+        margin: auto;
+        height: 350px;
+        background-color: #303030;
+        box-shadow: 0px 0px 10px 1px #303030;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-radius: 20px;
+        bottom: 0;
+        position: absolute;
+        textarea {
+            margin: auto;
+            height: 300px;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            resize: none;
+            text-align: left;
+            width: 700px;
+            border: none;
+            outline: none;
+            img {
+                border-radius: 5px;
+                transition: 300ms;
+                cursor: pointer;
+            }
+            color: black; 
+            font-family: "Lexend Deca";
+
+        }
+    }
+    a {
+        font-family: "Lexend Deca";
+        transition: 250ms;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background-color: #303030;
+        color: white;
+        bottom: 0;
+        position: absolute;
+        right: 0;
+    }
+    a:hover {
+        color: #1478eb;
+        transition: 250ms;
+    }
+}
