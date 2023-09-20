@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <main lang='tr'>
+    <html lang='tr'>
       <script src="https://kit.fontawesome.com/55460c171b.js" crossOrigin="anonymous"/>
       <header>
         <div className='container'>
@@ -26,9 +26,7 @@ export default function RootLayout({ children }) {
         </div>
 
       </header>
-      <br></br>
-      <body>{children}</body>
-      <br></br>
+      {children}
       <footer>
         <ul>
           <li><a><i className="fa-solid fa-code-fork"></i> Fork BadgePicker</a></li>
@@ -37,6 +35,7 @@ export default function RootLayout({ children }) {
           <li><a><i className="fa-solid fa-box-tissue"></i> Create Issues</a></li>
         </ul>
       </footer>
-      </main>
+    </html>
+
   )
 }
