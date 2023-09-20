@@ -4,5 +4,5 @@ const { default: DevServer } = require('next/dist/server/dev/next-dev-server')
 const nextConfig = {}
 
 DevServer.fastRefresh = true;
-
+swcMinify: true,
 module.exports = nextConfig
