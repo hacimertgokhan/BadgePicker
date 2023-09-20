@@ -35,7 +35,7 @@ Easily select the languages you want with BadgePicker, and badgepicker will adap
 
 # Databases
 <div align="center">
-  <img src="https://github.com/hacimertgokhan/BadgePicker/assets/64479768/03e0d056-c1fa-4e05-a350-b3fe7aec1913"/>
+  <img src="https://github.com/hacimertgokhan/BadgePicker/assets/64479768/1a1915a5-cbf2-448b-b6b8-6ec350b2efde"/>
 </div>
 
 # Frameworks & Libs
