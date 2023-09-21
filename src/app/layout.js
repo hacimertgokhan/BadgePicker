@@ -1,5 +1,6 @@
 import './globals.css'
 import './assets/sass/layout/layout.style.css'
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'BadgePicker By H. Mert Gökhan',
@@ -27,7 +28,10 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         <br></br>
-        <main>{children}</main>
+        <main>
+          {children}
+          <Analytics/>
+        </main>
         <br></br>
         <footer>
           <ul>
@@ -39,7 +43,6 @@ export default function RootLayout({ children }) {
         </footer>
         <script src="https://kit.fontawesome.com/55460c171b.js" crossOrigin="anonymous"></script>
         </body>
-
       </html>
 
   )
