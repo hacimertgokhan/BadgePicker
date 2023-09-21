@@ -207,7 +207,6 @@ elixir.addEventListener("click", () => {
     }
 });
 
-
 document.getElementById('elm').addEventListener("click", () => {
 
     if(pickedItems.childNodes.length < 20) {

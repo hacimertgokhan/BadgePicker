@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import './assets/sass/page.style.css'
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -933,6 +934,7 @@ export default function Home() {
           <a id='copy_md_part_text'>Copy</a>
         </div>
         <script src='languages.databases.frameworks.js'/>
+        <Analytics/>
       </main>
 
   )
