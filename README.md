@@ -16,7 +16,6 @@
 </p>
 <br>
 
-
 # Create your own Tech Stacks List
 Easily select the languages you want with BadgePicker, and badgepicker will adapt the markdown file for you.
 ***Since it is mobile compatible, it can be used on phones, tablets, etc. You can also use BadgePicker from devices such as.***
